@@ -30,10 +30,10 @@ This course introduces students to several core data science concepts. It teache
 :::
 
 ## Math Equations
-### LaTex Equation (Inline)
+### Inline
 The conditioanl probability $Pr(A \mid B) = \frac{Pr(A \cap B)}{Pr(B)}$
 
-### LaTex Equation (Non Inline)
+### Non Inline
 $$Pr(A \mid B) = \frac{Pr(A \cap B)}{Pr(B)}$$
 
 ## Photos and Videos

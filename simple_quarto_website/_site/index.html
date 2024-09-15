@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -163,6 +183,7 @@ window.Quarto = {
   </ul></li>
   <li><a href="#mermaid-diagram" id="toc-mermaid-diagram" class="nav-link" data-scroll-target="#mermaid-diagram">Mermaid Diagram</a></li>
   <li><a href="#quote" id="toc-quote" class="nav-link" data-scroll-target="#quote">Quote</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -304,13 +325,22 @@ Assignment 2</p>
 <blockquote class="blockquote">
 <p>“Learn everything that is good from others, but bring it in, and in your own way absorb it; do not become others.”<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
 </blockquote>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>I presented the paper titled “High-Order Total Variation-Based Image Restoration” in the “Mathematical Modeling for Image Processing” course I took in undergrad <span class="citation" data-cites="chan2000high">(<a href="#ref-chan2000high" role="doc-biblioref">Chan, Marquina, and Mulet 2000</a>)</span>.</p>
+
 
 
 </section>
 </section>
 
 
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-chan2000high" class="csl-entry" role="listitem">
+Chan, Tony, Antonio Marquina, and Pep Mulet. 2000. <span>“High-Order Total Variation-Based Image Restoration.”</span> <em>SIAM Journal on Scientific Computing</em> 22 (2): 503–16.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
 <li id="fn1"><p><a href="https://analytics.georgetown.edu/program-overview/course-descriptions/" class="uri">https://analytics.georgetown.edu/program-overview/course-descriptions/</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
