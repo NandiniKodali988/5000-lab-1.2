@@ -35,3 +35,6 @@ The conditioanl probability $Pr(A \mid B) = \frac{Pr(A \cap B)}{Pr(B)}$
 
 ### LaTex Equation (Non Inline)
 $$Pr(A \mid B) = \frac{Pr(A \cap B)}{Pr(B)}$$
+
+[^1]: <https://analytics.georgetown.edu/program-overview/course-descriptions/>
+[^2]: Swami Vivekananda

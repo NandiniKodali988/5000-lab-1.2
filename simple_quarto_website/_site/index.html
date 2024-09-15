@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -116,6 +145,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#course-description" id="toc-course-description" class="nav-link" data-scroll-target="#course-description">Course Description</a>
   <ul class="collapse">
   <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
+  <li><a href="#table" id="toc-table" class="nav-link" data-scroll-target="#table">Table</a></li>
+  <li><a href="#columns" id="toc-columns" class="nav-link" data-scroll-target="#columns">Columns</a></li>
+  </ul></li>
+  <li><a href="#math-equations" id="toc-math-equations" class="nav-link" data-scroll-target="#math-equations">Math Equations</a>
+  <ul class="collapse">
+  <li><a href="#latex-equation-inline" id="toc-latex-equation-inline" class="nav-link" data-scroll-target="#latex-equation-inline">LaTex Equation (Inline)</a></li>
+  <li><a href="#latex-equation-non-inline" id="toc-latex-equation-non-inline" class="nav-link" data-scroll-target="#latex-equation-non-inline">LaTex Equation (Non Inline)</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -155,6 +191,61 @@ ul.task-list li input[type="checkbox"] {
 <li>Intermediate coding experience in Python3</li>
 <li>Knowledge of introductory statistics</li>
 </ul>
+</section>
+<section id="table" class="level3">
+<h3 class="anchored" data-anchor-id="table">Table</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Assignment</th>
+<th style="text-align: center;">Due Date</th>
+<th style="text-align: center;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Assignment 1</td>
+<td style="text-align: center;">09/14/2024</td>
+<td style="text-align: center;">Published</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Assignment 2</td>
+<td style="text-align: center;">09/09/2024</td>
+<td style="text-align: center;">Graded</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="columns" class="level3">
+<h3 class="anchored" data-anchor-id="columns">Columns</h3>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<section id="assignments" class="level4 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<h4 class="anchored" data-anchor-id="assignments">Assignments</h4>
+<p>Assignment 1<br>
+Assignment 2</p>
+</section>
+<section id="due-date" class="level4 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<h4 class="anchored" data-anchor-id="due-date">Due Date</h4>
+<p>14-09-2024<br>
+09/09/2024</p>
+</section>
+</div>
+</div>
+</section>
+</section>
+<section id="math-equations" class="level2">
+<h2 class="anchored" data-anchor-id="math-equations">Math Equations</h2>
+<section id="latex-equation-inline" class="level3">
+<h3 class="anchored" data-anchor-id="latex-equation-inline">LaTex Equation (Inline)</h3>
+<p>The conditioanl probability <span class="math inline">\(Pr(A \mid B) = \frac{Pr(A \cap B)}{Pr(B)}\)</span></p>
+</section>
+<section id="latex-equation-non-inline" class="level3">
+<h3 class="anchored" data-anchor-id="latex-equation-non-inline">LaTex Equation (Non Inline)</h3>
+<p><span class="math display">\[Pr(A \mid B) = \frac{Pr(A \cap B)}{Pr(B)}\]</span></p>
 
 
 </section>
