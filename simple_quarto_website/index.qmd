@@ -59,6 +59,8 @@ flowchart LR
 ## Quote
 >"Learn everything that is good from others, but bring it in, and in your own way absorb it; do not become others."[^2]
 
+## References
+I presented the paper titled "High-Order Total Variation-Based Image Restoration" in the "Mathematical Modeling for Image Processing" course I took in undergrad [@chan2000high].
 
 [^1]: <https://analytics.georgetown.edu/program-overview/course-descriptions/>
 [^2]: Swami Vivekananda
