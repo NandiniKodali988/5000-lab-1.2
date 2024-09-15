@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "simple_quarto_website",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "A simple quarto website for DSAN 5000 : Data Science and Analytics lab-1.2.\n\n\nThis course introduces students to several core data science concepts. It teaches students how to synthesize disparate, possibly unstructured data to better understand and characterize the world, and in some cases, to draw meaningful inferences. Topics covered include: the history of data science, successes and failures in data analytics, the data analytics life cycle, data/web scraping and APIs, data wrangling, data characterization (correlations, identifying clusters and associations), data inference and basic machine learning, network analysis, data ethics, and visual analytics. Students will work on a semester-long data science project that starts with question formulation and data collection, and goes through all the stages of the life cycle, culminating in data storytelling. The course also maps data science case studies to topics presented throughout the semester.[^1]\n\n\n\nIntermediate coding experience in Python3\nKnowledge of introductory statistics"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,12 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "index.html#course-description",
+    "href": "index.html#course-description",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This course introduces students to several core data science concepts. It teaches students how to synthesize disparate, possibly unstructured data to better understand and characterize the world, and in some cases, to draw meaningful inferences. Topics covered include: the history of data science, successes and failures in data analytics, the data analytics life cycle, data/web scraping and APIs, data wrangling, data characterization (correlations, identifying clusters and associations), data inference and basic machine learning, network analysis, data ethics, and visual analytics. Students will work on a semester-long data science project that starts with question formulation and data collection, and goes through all the stages of the life cycle, culminating in data storytelling. The course also maps data science case studies to topics presented throughout the semester.[^1]\n\n\n\nIntermediate coding experience in Python3\nKnowledge of introductory statistics"
   }
 ]
