@@ -28,3 +28,10 @@ This course introduces students to several core data science concepts. It teache
   14-09-2024 \
   09/09/2024
 :::
+
+## Math Equations
+### LaTex Equation (Inline)
+The conditioanl probability $Pr(A \mid B) = \frac{Pr(A \cap B)}{Pr(B)}$
+
+### LaTex Equation (Non Inline)
+$$Pr(A \mid B) = \frac{Pr(A \cap B)}{Pr(B)}$$
