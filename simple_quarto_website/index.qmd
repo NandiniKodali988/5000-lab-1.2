@@ -36,6 +36,16 @@ The conditioanl probability $Pr(A \mid B) = \frac{Pr(A \cap B)}{Pr(B)}$
 ### LaTex Equation (Non Inline)
 $$Pr(A \mid B) = \frac{Pr(A \cap B)}{Pr(B)}$$
 
+## Photos and Videos
+
+### Pictures
+![Pangong Lake, India](images/leh.jpg)
+
+![Jal Mahal, India](images/jaipur.jpg)
+
+### Video
+{{< video https://www.youtube.com/watch?v=_f3latmOhew >}}
+
 ## Quote
 >"Learn everything that is good from others, but bring it in, and in your own way absorb it; do not become others."[^2]
 
