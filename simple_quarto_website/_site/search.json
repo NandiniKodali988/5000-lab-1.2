@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "simple_quarto_website",
     "section": "",
-    "text": "A simple quarto website for DSAN 5000 : Data Science and Analytics lab-1.2.\n\n\nThis course introduces students to several core data science concepts. It teaches students how to synthesize disparate, possibly unstructured data to better understand and characterize the world, and in some cases, to draw meaningful inferences. Topics covered include: the history of data science, successes and failures in data analytics, the data analytics life cycle, data/web scraping and APIs, data wrangling, data characterization (correlations, identifying clusters and associations), data inference and basic machine learning, network analysis, data ethics, and visual analytics. Students will work on a semester-long data science project that starts with question formulation and data collection, and goes through all the stages of the life cycle, culminating in data storytelling. The course also maps data science case studies to topics presented throughout the semester.1\n\n\n\nIntermediate coding experience in Python3\nKnowledge of introductory statistics\n\n\n\n\n\n\n\nAssignment\nDue Date\nStatus\n\n\n\n\nAssignment 1\n09/14/2024\nPublished\n\n\nAssignment 2\n09/09/2024\nGraded\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssignment 1\nAssignment 2\n\n\n\n14-09-2024\n09/09/2024\n\n\n\n\n\n\n\n\n\nThe conditioanl probability \\(Pr(A \\mid B) = \\frac{Pr(A \\cap B)}{Pr(B)}\\)\n\n\n\n\\[Pr(A \\mid B) = \\frac{Pr(A \\cap B)}{Pr(B)}\\]\n\n\n\n\n\n“Learn everything that is good from others, but bring it in, and in your own way absorb it; do not become others.”2"
+    "text": "A simple quarto website for DSAN 5000 : Data Science and Analytics lab-1.2.\n\n\nThis course introduces students to several core data science concepts. It teaches students how to synthesize disparate, possibly unstructured data to better understand and characterize the world, and in some cases, to draw meaningful inferences. Topics covered include: the history of data science, successes and failures in data analytics, the data analytics life cycle, data/web scraping and APIs, data wrangling, data characterization (correlations, identifying clusters and associations), data inference and basic machine learning, network analysis, data ethics, and visual analytics. Students will work on a semester-long data science project that starts with question formulation and data collection, and goes through all the stages of the life cycle, culminating in data storytelling. The course also maps data science case studies to topics presented throughout the semester.1\n\n\n\nIntermediate coding experience in Python3\nKnowledge of introductory statistics\n\n\n\n\n\n\n\nAssignment\nDue Date\nStatus\n\n\n\n\nAssignment 1\n09/14/2024\nPublished\n\n\nAssignment 2\n09/09/2024\nGraded\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssignment 1\nAssignment 2\n\n\n\n14-09-2024\n09/09/2024\n\n\n\n\n\n\n\n\n\nThe conditioanl probability \\(Pr(A \\mid B) = \\frac{Pr(A \\cap B)}{Pr(B)}\\)\n\n\n\n\\[Pr(A \\mid B) = \\frac{Pr(A \\cap B)}{Pr(B)}\\]\n\n\n\n\n\n\n\n\n\nPangong Lake, India\n\n\n\n\n\nJal Mahal, India\n\n\n\n\n\n\n\n\n\n\n\n“Learn everything that is good from others, but bring it in, and in your own way absorb it; do not become others.”2"
   },
   {
     "objectID": "about.html",
@@ -40,5 +40,12 @@
     "title": "simple_quarto_website",
     "section": "",
     "text": "“Learn everything that is good from others, but bring it in, and in your own way absorb it; do not become others.”2"
+  },
+  {
+    "objectID": "index.html#photos-and-videos",
+    "href": "index.html#photos-and-videos",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Pangong Lake, India\n\n\n\n\n\nJal Mahal, India"
   }
 ]

@@ -46,6 +46,16 @@ $$Pr(A \mid B) = \frac{Pr(A \cap B)}{Pr(B)}$$
 ### Video
 {{< video https://www.youtube.com/watch?v=_f3latmOhew >}}
 
+## Mermaid Diagram
+```{mermaid}
+%%| code-fold: false
+flowchart LR
+  A[Step 1] --> B[Step 2]
+  B --> C{Decision}
+  C --> D[Result one!]
+  C --> E[Result two!]
+```
+
 ## Quote
 >"Learn everything that is good from others, but bring it in, and in your own way absorb it; do not become others."[^2]
 
