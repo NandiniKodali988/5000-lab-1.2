@@ -11,3 +11,20 @@ This course introduces students to several core data science concepts. It teache
 ### Prerequisites
 - Intermediate coding experience in Python3
 -  Knowledge of introductory statistics
+
+### Table
+| Assignment| Due Date | Status|
+| :--------:| :-------:| :----:|
+| Assignment 1 | 09/14/2024 | Published |
+| Assignment 2 | 09/09/2024 | Graded |
+
+### Columns
+::: {layout-ncol=2}
+#### Assignments
+  Assignment 1 \
+  Assignment 2 
+  
+#### Due Date
+  14-09-2024 \
+  09/09/2024
+:::
