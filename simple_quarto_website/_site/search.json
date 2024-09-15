@@ -61,5 +61,40 @@
     "title": "simple_quarto_website",
     "section": "",
     "text": "I presented the paper titled “High-Order Total Variation-Based Image Restoration” in the “Mathematical Modeling for Image Processing” course I took in undergrad (Chan, Marquina, and Mulet 2000)."
+  },
+  {
+    "objectID": "slides/slides.html#course",
+    "href": "slides/slides.html#course",
+    "title": "Slides",
+    "section": "Course",
+    "text": "Course\nDSAN 5000: Data Science and Analytics"
+  },
+  {
+    "objectID": "slides/slides.html#assignment",
+    "href": "slides/slides.html#assignment",
+    "title": "Slides",
+    "section": "Assignment",
+    "text": "Assignment\nLab - 1.2"
+  },
+  {
+    "objectID": "slides/slides.html#images",
+    "href": "slides/slides.html#images",
+    "title": "Slides",
+    "section": "Images",
+    "text": "Images\n\n\n\nPangong Lake, India\n\n\n\n\n\nJal Mahal, India"
+  },
+  {
+    "objectID": "slides/slides.html#references",
+    "href": "slides/slides.html#references",
+    "title": "Slides",
+    "section": "References",
+    "text": "References\nI presented the paper titled “High-Order Total Variation-Based Image Restoration” in the “Mathematical Modeling for Image Processing” course I took in undergrad (Chan, Marquina, and Mulet 2000)."
+  },
+  {
+    "objectID": "slides/slides.html#python-code",
+    "href": "slides/slides.html#python-code",
+    "title": "Slides",
+    "section": "Python Code",
+    "text": "Python Code\n\n\n&lt;class 'seaborn.axisgrid.FacetGrid'&gt;\n\n\n\n\n\n\n\n\n\n\n\nChan, Tony, Antonio Marquina, and Pep Mulet. 2000. “High-Order Total Variation-Based Image Restoration.” SIAM Journal on Scientific Computing 22 (2): 503–16."
   }
 ]
