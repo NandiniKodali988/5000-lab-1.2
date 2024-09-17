@@ -35,11 +35,11 @@
     "text": "Pangong Tso, India\n\n\n\n\n\nJal Mahal, India"
   },
   {
-    "objectID": "index.html#mermaid-diagram",
-    "href": "index.html#mermaid-diagram",
+    "objectID": "index.html#mermaid-diagram-2",
+    "href": "index.html#mermaid-diagram-2",
     "title": "simple_quarto_website",
     "section": "",
-    "text": "flowchart LR\n  A[Step 1] --&gt; B[Step 2]\n  B --&gt; C{Decision}\n  C --&gt; D[Result one!]\n  C --&gt; E[Result two!]"
+    "text": "flowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]"
   },
   {
     "objectID": "index.html#quote",
@@ -103,12 +103,5 @@
     "title": "Slides",
     "section": "Python Code",
     "text": "Python Code\n\n\n&lt;class 'seaborn.axisgrid.FacetGrid'&gt;\n\n\n\n\n\n\n\n\n\n\n\nChan, Tony, Antonio Marquina, and Pep Mulet. 2000. “High-Order Total Variation-Based Image Restoration.” SIAM Journal on Scientific Computing 22 (2): 503–16."
-  },
-  {
-    "objectID": "index.html#mermaid-diagram-2",
-    "href": "index.html#mermaid-diagram-2",
-    "title": "simple_quarto_website",
-    "section": "",
-    "text": "flowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]"
   }
 ]
