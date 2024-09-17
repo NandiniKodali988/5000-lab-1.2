@@ -39,7 +39,7 @@ $$Pr(A \mid B) = \frac{Pr(A \cap B)}{Pr(B)}$$
 ## Photos and Videos
 
 ### Pictures
-![Pangong Lake, India](images/leh.jpg)
+![Pangong Tso, India](images/leh.jpg)
 
 ![Jal Mahal, India](images/jaipur.jpg)
 
