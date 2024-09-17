@@ -50,10 +50,10 @@ $$Pr(A \mid B) = \frac{Pr(A \cap B)}{Pr(B)}$$
 ```{mermaid}
 %%| code-fold: false
 flowchart LR
-  A[Step 1] --> B[Step 2]
+  A[Hard edge] --> B(Round edge)
   B --> C{Decision}
-  C --> D[Result one!]
-  C --> E[Result two!]
+  C --> D[Result one]
+  C --> E[Result two]
 ```
 
 ## Quote
